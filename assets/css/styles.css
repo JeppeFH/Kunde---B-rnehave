@@ -2,8 +2,62 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background: url(/assets/img/header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+  background: #8c52ff;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+ul li ul.dropdown {
+  width: 100%;
+  background: #8c52ff;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+ul li a:hover {
+  background: #6d30e9;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
 }
