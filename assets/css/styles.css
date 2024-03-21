@@ -32,6 +32,7 @@ ul li {
   display: inline-block;
   position: relative;
   margin: 0 auto;
+  gap: 10px;
 }
 
 ul li a {
