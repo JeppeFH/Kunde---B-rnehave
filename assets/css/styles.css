@@ -10,7 +10,9 @@ html {
   font-size: 62.5%;
 }
 
-body {
+/*Navigation*/
+
+nav {
   min-height: 100vh;
   background: url(/assets/img/header.jpg) no-repeat;
   background-size: cover;
@@ -69,4 +71,114 @@ ul li:hover ul.dropdown {
 nav img {
   height: 50px;
   width: 50px;
+}
+
+.contact-btn {
+  font-size: 2rem;
+  font-weight: 600px;
+  display: inline-block;
+  background-color: #6999e1;
+  color: white;
+  text-decoration: none;
+
+  text-align: center;
+  border-radius: 15px;
+}
+
+/*Kalender sektion*/
+.calender {
+  background-color: white;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: skyblue;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-right: auto;
+
+  border-radius: 5px;
+}
+
+.container .image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container .days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .day,
+.container .number,
+.container .number-pre {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 500;
+}
+
+.container .number-pre {
+  color: rgba(45, 43, 43, 0.4);
+}
+.container .number:hover,
+.container .number-pre:hover {
+  border: 2px solid rgba(64, 148, 181, 0.4);
+}
+
+.container .date {
+  width: 380px;
+  padding: 25px;
+  margin-right: auto;
+}
+
+.container .number.active {
+  background: rgba(19, 79, 103, 0.4);
+  border: 2px solid rgba(64, 148, 181, 0.4);
+}
+
+.container h3 {
+  font-size: 3rem;
+  color: black;
+  font-weight: 700;
+  margin: 0 15px 30px;
+  display: inline;
+  margin-left: 7px;
+}
+
+.container img {
+  height: 500px;
+  width: 350px;
+  padding: 30px;
+}
+
+.container p {
+  display: inline;
+  margin-left: 80px;
+  font-size: 2rem;
+  color: white;
+}
+
+.calender-figure-1 {
+  margin-right: 20px;
+}
+
+.calender-figure-1:hover {
+  color: rgba(19, 79, 103, 0.4);
+}
+
+.calender-figure-2:hover {
+  color: rgba(19, 79, 103, 0.4);
 }
