@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <!--Navigation-->
     <nav>
       <ul>
         <li>
@@ -33,24 +34,143 @@
 
         <li><a href="#">Hjem</a></li>
         <li>
-          <a href="#">Praktisk info ▾</a>
+          <a href="info.html">Praktisk info ▾</a>
           <ul class="dropdown">
-            <li><a href="#">Åbningstider</a></li>
-            <li><a href="#">Stuerne</a></li>
-            <li><a href="#">Kostplan</a></li>
+            <li><a href="åbningstider.html">Åbningstider</a></li>
+            <li><a href="stuerne.html">Stuerne</a></li>
+            <li><a href="kostplan.html">Kostplan</a></li>
           </ul>
         </li>
-        <li><a href="#">Holdet</a></li>
-        <li><a href="#">Galleri</a></li>
-        <li><a href="#">Om os</a></li>
+        <li><a href="holdet.html">Holdet</a></li>
+        <li><a href="galleri.html">Galleri</a></li>
+        <li><a href="about.html">Om os</a></li>
 
         <li>
-          <a href="#">Kontakt ▾</a>
-          <ul class="dropdown">
-            <li><a href="#">Ansøg her</a></li>
+          <a class="contact-btn" href="contact.html">Kontakt ▾</a>
+          <ul class="dropdown-btn">
+            <li><a class="contact-btn" href="ansøg.html">Ansøg her</a></li>
           </ul>
         </li>
       </ul>
     </nav>
+
+    <!--Kalender sektion-->
+    <h2 class="activities-headline">Aktiviteter i børnehaven</h2>
+    <section class="calender">
+      <div class="container">
+        <div class="date">
+          <h3>Marts 2024</h3>
+          <p>
+            <span class="calender-figure-1">&#x22C0;</span>
+            <span class="calender-figure-2">&#x22C1;</span>
+          </p>
+          <div class="days">
+            <div class="day">Søn</div>
+            <div class="day">Man</div>
+            <div class="day">Tir</div>
+            <div class="day">Ons</div>
+            <div class="day">Tor</div>
+            <div class="day">Fre</div>
+            <div class="day">Lør</div>
+
+            <div class="number-pre">26</div>
+            <div class="number-pre">27</div>
+            <div class="number-pre">28</div>
+            <div class="number-pre">29</div>
+            <div class="number-pre">30</div>
+            <div class="number">1</div>
+            <div class="number">2</div>
+            <div class="number">3</div>
+            <div class="number">4</div>
+            <div class="number">5</div>
+            <div class="number">6</div>
+            <div class="number">7</div>
+            <div class="number">8</div>
+            <div class="number">9</div>
+            <div class="number">10</div>
+            <div class="number">11</div>
+            <div class="number">12</div>
+            <div class="number active">13</div>
+            <div class="number">14</div>
+            <div class="number">15</div>
+            <div class="number">16</div>
+            <div class="number">17</div>
+            <div class="number">18</div>
+            <div class="number">19</div>
+            <div class="number">20</div>
+            <div class="number">21</div>
+            <div class="number">22</div>
+            <div class="number">23</div>
+            <div class="number">24</div>
+            <div class="number">25</div>
+            <div class="number">26</div>
+            <div class="number">27</div>
+            <div class="number">28</div>
+            <div class="number">29</div>
+            <div class="number">30</div>
+            <div class="number">31</div>
+            <div class="number-pre">1</div>
+            <div class="number-pre">2</div>
+            <div class="number-pre">3</div>
+            <div class="number-pre">4</div>
+            <div class="number-pre">5</div>
+            <div class="number-pre">6</div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="/assets/img/kalender.jpg" alt="kalender billede" />
+        </div>
+      </div>
+
+      <section class="activities">
+        <div>
+          <article>
+            <img src="/assets/img/artikel1.png" alt="artikel 1 billede" />
+            <p class="fri-btn">Fri</p>
+            <h3>Efterårsworkshop</h3>
+            <i class="fa-solid fa-calendar"> 13. marts 2024</i>
+            <p>
+              Så er vi klar til årets Halloween workshop. Vi glæder os til at
+              byde forældre og børn velkommen til...
+            </p>
+            <a href="#">Læs mere &#10230;</a>
+          </article>
+        </div>
+
+        <div>
+          <article>
+            <img src="/assets/img/artikel2.png" alt="artikel 2 billede" />
+            <p class="fri-btn">Fri</p>
+            <h3>Familiedag</h3>
+            <i class="fa-solid fa-calendar"> 10. marts 2024</i>
+            <p>
+              Vi vil gerne invitere jer til en hyggelig og sjov familiedag i
+              Børnehaven Himmelblå Det bliver en dag fyldt med glæde, leg og...
+            </p>
+            <a href="#">Læs mere &#10230;</a>
+          </article>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <section>
+        <section class="text">
+          <h2>Himmelblå</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            numquam maxime blanditiis. Soluta reprehenderit ad, assumenda saepe
+            provident quod maxime!
+          </p>
+        </section>
+        <ul>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+        <p>Merkulove © Kooki Template All rights reserved Copyrights 2020</p>
+      </section>
+    </footer>
   </body>
 </html>
